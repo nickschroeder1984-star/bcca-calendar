@@ -1,10 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BCCA 2026–2027 Events</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 30px 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f8f7;
+            color: #24476a;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 20px 0 10px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #5f8797;
+            margin-bottom: 30px;
+        }
+
+        .events {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: left;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+        }
+
+        .event {
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .event:last-child {
+            border-bottom: none;
+        }
+
+        .event-title {
+            font-size: 19px;
+            font-weight: bold;
+            color: #5f8797;
+        }
+
+        .event-date {
+            font-size: 17px;
+            color: #555;
+            margin-top: 5px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #24476a;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 16px 28px;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+        .button:hover {
+            background: #315b82;
+        }
+
+        .note {
+            font-size: 14px;
+            color: #777;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+            }
+
+            .events {
+                padding: 20px;
+            }
+
+            .event-title {
+                font-size: 18px;
+            }
+
+            .event-date {
+                font-size: 16px;
+            }
+
+            .button {
+                display: block;
+                font-size: 19px;
+                padding: 17px 15px;
+            }
+        }
+    </style>
 </head>
+
 <body>
+
+<div class="container">
+
     <h1>BCCA 2026–2027 Events</h1>
-    <p><a href="BCCA_2026-2027_Events.ics">Download the BCCA Calendar</a></p>
+
+    <div class="subtitle">
+        Big Country Counseling Association
+    </div>
+
+    <div class="events">
+
+        <div class="event">
+            <div class="event-title">BCCA Lunch &amp; Learn</div>
+            <div class="event-date">November 6, 2026 • 12:00–1:00 PM</div>
+        </div>
+
+        <div class="event">
+            <div class="event-title">BCCA Winter Workshop</div>
+            <div class="event-date">January 22, 2027 • 6:00–8:00 PM</div>
+            <div class="event-date">January 23, 2027 • 9:00 AM–4:00 PM</div>
+        </div>
+
+        <div class="event">
+            <div class="event-title">BCCA Lunch &amp; Learn</div>
+            <div class="event-date">April 2, 2027 • 12:00–1:00 PM</div>
+        </div>
+
+        <div class="event">
+            <div class="event-title">BCCA Lunch &amp; Learn</div>
+            <div class="event-date">May 14, 2027 • 12:00–1:00 PM</div>
+        </div>
+
+        <div class="event">
+            <div class="event-title">BCCA Event – Details TBD</div>
+            <div class="event-date">June 25, 2027</div>
+        </div>
+
+    </div>
+
+    <a class="button" href="BCCA_2026-2027_Events.ics">
+        ADD BCCA EVENTS TO YOUR CALENDAR
+    </a>
+
+    <div class="note">
+        Tap the button to download the calendar file.
+    </div>
+
+</div>
+
 </body>
 </html>
